@@ -1,0 +1,25 @@
+POST http://localhost:8400/user/signin
+Content-Type: application/json
+
+{
+    "username" : "sathvik",
+    "password" : "sathvik123"
+}
+
+###
+POST http://localhost:8400/user/login
+Content-Type: application/json
+
+{
+    "username" : "sathvik",
+    "password" : "sathvik123"
+}
+
+###
+GET http://localhost:8400/user/username/sathvik
+
+###
+GET http://localhost:8400/vote/votes
+
+###
+PUT http://localhost:8400/vote/cat1/sathvik
